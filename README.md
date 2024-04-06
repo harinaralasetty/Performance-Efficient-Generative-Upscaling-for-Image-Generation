@@ -1,0 +1,2 @@
+# Performance-Efficient-Generative-Upscaling-for-Image-Generation
+I've developed an optimized pipeline that leverages the power of diffusion models for initial image generation, followed by computationally efficient super-resolution upscaling using ESRGAN. This approach maintains photorealism and control over image details while successfully addressing high resolution requirements within resource constraints.
