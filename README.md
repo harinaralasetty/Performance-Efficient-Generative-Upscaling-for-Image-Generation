@@ -8,7 +8,8 @@ This research explores the challenges and optimization strategies for generating
 Diffusion models, specifically Stable Diffusion and its variants, have revolutionized image synthesis. However, directly generating high-resolution images remains computationally intensive. This paper investigates a pipeline I developed that combines diffusion models for initial image generation and subsequent upscaling techniques to achieve the desired resolution while preserving photorealism and steerability.
 
 # Methodology
-## Model Selection: I explored the following models known for photorealism, with a particular emphasis on generating human figures:
+## Model Selection: 
+I explored the following models known for photorealism, with a particular emphasis on generating human figures:
 
 stabilityai/stable-diffusion-xl-base-1.0
 SG161222/Realistic_Vision_V6.0_B1_noVAE
