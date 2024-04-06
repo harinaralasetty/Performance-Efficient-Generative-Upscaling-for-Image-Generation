@@ -1,6 +1,6 @@
 # Performance Efficient Generative Upscaling for Image Generation
 I've developed an optimized pipeline that leverages the power of diffusion models for initial image generation, followed by computationally efficient super-resolution upscaling using ESRGAN. This approach maintains photorealism and control over image details while successfully addressing high resolution requirements within resource constraints.
-[![image](https://github.com/harinaralasetty/Performance-Efficient-Generative-Upscaling-for-Image-Generation/blob/main/Performance%20Efficient%20Generative%20Upscaling.png)]
+![image](https://github.com/harinaralasetty/Performance-Efficient-Generative-Upscaling-for-Image-Generation/blob/main/Performance%20Efficient%20Generative%20Upscaling.png)
 
 # Abstract
 This research explores the challenges and optimization strategies for generating high-resolution (2048 x 2048) photorealistic images depicting people and backgrounds from text descriptions. I focus on maximizing photorealism, steerability, and resource efficiency in the context of limited computational resources (Kaggle's P100 GPUs).  A combination of diffusion models specialized in photorealism and super-resolution techniques is employed to overcome resolution constraints.
@@ -40,3 +40,5 @@ Upscaling smaller images allowed me to remain within computational limits while 
 
 # Conclusion
 This study highlights the potential of combining diffusion models with upscaling techniques for high-resolution image generation under computational constraints. It underscores the importance of model selection tailored to photorealism and efficient resource utilization strategies.
+
+Kaggle notes: [Performance Efficient Image Generation | SD+ESRGAN](https://www.kaggle.com/code/hknaralasetty/performance-efficient-image-generation-sd-esrgan#Image-Generation)
